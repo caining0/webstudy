@@ -4,11 +4,9 @@
         
     </div>
 </template>
-<script>
-export default {
-    name: 'day_02',
-}
-</script>
-<style >
+<script setup >
+
+</script >
+<style  >
     
 </style>

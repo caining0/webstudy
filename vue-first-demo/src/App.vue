@@ -38,7 +38,8 @@
 
    <div>
         <span>资源：</span>
-        <a href="">【Vue 官网】 </a>
+        <a href="https://cn.vuejs.org/">【Vue 官网】 </a>
+        <a href="https://github.com/yyx990803">【尤雨溪】</a>
     </div>
 </div>
 </template>
@@ -75,7 +76,7 @@ export default {
     Day_11,
     Day_12,
     Day_13,
-    Day_07
+    Day_07,
 },
   setup() {
     const showWhat = ref(['Day_01_Ref']);
@@ -84,8 +85,8 @@ export default {
   data(){
     return {
       arr_days: [
-        "Vue 基础学习",
-        "插值语法{{}}",
+        "Vue笔记-指令与事件修饰",
+        "数据绑定",
         "数据绑定",
         "数据绑定",
         "数据绑定",
@@ -100,7 +101,6 @@ export default {
         "数据绑定",
         "数据绑定",
         "数据绑定"
-
       ]
     }
   },
